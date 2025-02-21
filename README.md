@@ -1,4 +1,4 @@
-# Vendor Reset
+# Vendor Reset but for newer linux kernels!
 
 The goal of this project is to provide a kernel module that is capable of
 resetting hardware devices into a state where they can be re-initialized or
