@@ -29,7 +29,10 @@
 #include <linux/slab.h>
 #include <linux/delay.h>
 #include <linux/version.h>
-#include <asm/unaligned.h>
+// for newer kmernels 
+// those headers are required
+// wont work on older kernels anymore!
+#include <linux/unaligned.h>
 
 //#include <drm/drm_util.h>
 //#include <drm/drm_print.h>
